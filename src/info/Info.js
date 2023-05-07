@@ -23,9 +23,9 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Remus",
+    lastName: "Andor",
+    initials: "ra", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -33,19 +33,19 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'fueled by knowledge and coffee'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Romania'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Software Consultant"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "andorremus@gmail.com"
         }
     ],
     socials: [
@@ -78,7 +78,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Remus. I'm a software consultant. I studied Computer Science at UoN, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
@@ -91,7 +91,7 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
+            label: 'exercise',
             emoji: '🎭'
         },
         {
@@ -99,7 +99,7 @@ export const info = {
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'diy',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -108,33 +108,9 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://andorremus.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/aaremus", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
     ]
 }
